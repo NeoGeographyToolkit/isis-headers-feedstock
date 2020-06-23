@@ -1,0 +1,36 @@
+{% set version = "4.1.0" %}
+
+package:
+  name: isis-headers
+  version: {{ version }}
+
+source:
+# Temporary recipe that ships the ISIS headers.
+  git_url: https://github.com/USGS-Astrogeology/ISIS3.git
+  git_tag: f6beda24b408a6e352f3a8aeb87505874c555691
+  patches:
+
+build:
+  number: 1000
+
+requirements:
+  build:
+  host:
+  run:
+
+test:
+  commands:
+  files:
+
+about:
+  home: https://github.com/USGS-Astrogeology/ISIS3
+  license: BSD
+  license_file:
+  summary:
+  description:
+  dev_url:
+  doc_url:
+
+extra:
+  recipe-maintainers:
+    - oleg-alexandrov
