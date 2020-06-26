@@ -26,7 +26,7 @@ about:
   home: https://github.com/USGS-Astrogeology/ISIS3
   license: BSD
   license_file:
-  summary:
+  summary: Temporary package having the ISIS headers
   description:
   dev_url:
   doc_url:
